@@ -25,3 +25,12 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+# Project Setup
+
+Generates a new basic application definition in the "projects" subfolder of the workspace.
+```
+ng g application app2-restaurant
+ng g apllication app3-orders
+```
