@@ -43,6 +43,21 @@ npm i -D @angular-builders/custom-webpack@16.0.2-beta.2
 
 4. Set a default port for each project.
 
-### Update Root App
 
-angular.json
+### add serve scripts to package.json 
+
+to serve and build each application separately:
+```json
+"scripts": {
+  "ng": "ng",
+  "start:app1": "ng serve",
+  "start:app2": "ng serve app2-restaurant",
+  "start:app3": "ng serve app3-orders",
+  "build:app1": "ng build",
+  "build:app2": "ng build app2-restaurant"
+  "build:app3": "ng build app3-orders"
+  "watch": "ng build --watch --configuration development",
+  "test": "ng test",
+  "start:all": "npm run start:app1 & npm run start:app2 & npm run start:app3"
+}
+```
