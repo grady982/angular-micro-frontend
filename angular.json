@@ -15,7 +15,7 @@
       "prefix": "app",
       "architect": {
         "build": {
-          "builder": "@angular-devkit/custom-webpack:browser",
+          "builder": "@angular-builders/custom-webpack:browser",
           "options": {
             "outputPath": "dist/angular-micro-frontend",
             "index": "src/index.html",
@@ -34,7 +34,7 @@
             ],
             "scripts": [],
             "customWebpackConfig": {
-              "path": "webpack.config.js"
+              "path": "webpack.config.ts"
             }
           },
           "configurations": {
@@ -65,12 +65,12 @@
           "defaultConfiguration": "production"
         },
         "serve": {
-          "builder": "@angular-devkit/custom-webpack:dev-server",
+          "builder": "@angular-builders/custom-webpack:dev-server",
           "configurations": {
             "production": {
               "browserTarget": "angular-micro-frontend:build:production",
               "customWebpackConfig": {
-                "path": "webpack.config.js"
+                "path": "webpack.config.ts"
               }
             },
             "development": {
@@ -142,7 +142,7 @@
             ],
             "scripts": [],
             "customWebpackConfig": {
-              "path": "projects/app2-restaurant/webpack.config.js"
+              "path": "projects/app2-restaurant/webpack.config.ts"
             }
           },
           "configurations": {
@@ -251,7 +251,7 @@
             ],
             "scripts": [],
             "customWebpackConfig": {
-              "path": "projects/app3-orders/webpack.config.js"
+              "path": "projects/app3-orders/webpack.config.ts"
             }
           },
           "configurations": {
