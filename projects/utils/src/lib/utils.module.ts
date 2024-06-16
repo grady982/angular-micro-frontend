@@ -1,16 +1,16 @@
 import { NgModule } from '@angular/core';
-import { UtilsComponent } from './utils.component';
+import { HeaderComponent } from './header.component';
 
 
 
 @NgModule({
   declarations: [
-    UtilsComponent
+    HeaderComponent
   ],
   imports: [
   ],
   exports: [
-    UtilsComponent
+    HeaderComponent
   ]
 })
 export class UtilsModule { }

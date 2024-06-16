@@ -13,7 +13,7 @@ import { Router } from '@angular/router';
   styles: [
   ]
 })
-export class UtilsComponent {
+export class HeaderComponent {
   
   constructor(
     private router: Router
