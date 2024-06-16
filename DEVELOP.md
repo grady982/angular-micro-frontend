@@ -61,3 +61,9 @@ to serve and build each application separately:
   "start:all": "npm run start:app1 & npm run start:app2 & npm run start:app3"
 }
 ```
+
+## Create Shared Library
+
+```
+ng g library utils
+```

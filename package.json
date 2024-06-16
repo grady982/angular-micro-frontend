@@ -12,6 +12,7 @@
     "build:app1": "ng build",
     "build:app2": "ng build app2-restaurant",
     "build:app3": "ng build app2-orders",
+    "build:utils": "ng build utils",
 
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
@@ -42,6 +43,7 @@
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
+    "ng-packagr": "^16.2.0",
     "typescript": "~5.1.3"
   }
 }
