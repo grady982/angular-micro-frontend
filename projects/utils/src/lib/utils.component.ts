@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'lib-utils',
+  selector: 'app-header',
   template: `
     <div style="display: flex;">
       <button (click)="onHomeClick()">Home</button>
@@ -20,14 +20,17 @@ export class UtilsComponent {
   ) { }
 
   onHomeClick() {
+    console.log('onHomeClick');
     this.router.navigate(['/']);
   }
 
   onRestaurantClick() {
+    console.log('onRestaurantClick');
     this.router.navigate(['/restaurant']);
   }
 
   onOrdersClick() {
-    this.router.navigate(['/orders']);
+    console.log('onOrdersClick');
+    this.router.navigate(['/order']);
   }
 }
