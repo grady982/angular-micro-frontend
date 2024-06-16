@@ -19,7 +19,7 @@ export const webpackConfig: Configuration = {
       filename: 'remoteOrders.js',
       exposes: {
         OrderModule: './projects/app3-orders/src/app/order/order.module.ts',
-        OrderComponent: './projects/app3-orders/src/app/order/order.component.ts'
+        OrderComponent: './projects/app3-orders/src/app/order/order-list/order-list.component.ts'
       },
       shared: {
         '@angular/core': {

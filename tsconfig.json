@@ -24,6 +24,7 @@
       "dom"
     ],
     "resolveJsonModule": true,
+    "esModuleInterop": true,
     "paths": {
       "utils": [
         "dist/utils"

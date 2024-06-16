@@ -21,16 +21,16 @@ export class HeaderComponent {
 
   onHomeClick() {
     console.log('onHomeClick');
-    this.router.navigate(['/']);
+    this.router.navigate(['/pages', 'home']);
   }
 
   onRestaurantClick() {
     console.log('onRestaurantClick');
-    this.router.navigate(['/restaurant']);
+    this.router.navigate(['/pages','restaurant']);
   }
 
   onOrdersClick() {
     console.log('onOrdersClick');
-    this.router.navigate(['/order']);
+    this.router.navigate(['/pages', 'orders']);
   }
 }

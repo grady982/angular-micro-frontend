@@ -6,7 +6,7 @@
     
     "start:app1": "ng serve",
     "start:app2": "ng serve app2-restaurant",
-    "start:app3": "ng serve app2-orders",
+    "start:app3": "ng serve app3-orders",
     "start:all": "npm run start:app1 & npm run start:app2 & npm run start:app3",
 
     "build:app1": "ng build",
